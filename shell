@@ -1,0 +1,5 @@
+cat << __EOF | gnuplot
+set term canvas mousing size 500, 500
+set output "file_name.html"
+plot 'file_size.txt' with lines
+__EOF
